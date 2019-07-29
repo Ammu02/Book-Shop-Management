@@ -5,6 +5,9 @@ public class Item{
     public  void addItem(String itemName,int mrpItem){
         //write your code here
     	//-------------------
+    	setItemName(itemName);
+    	setMrp(mrpItem);
+    	System.out.println();
 
     }
 	public String getItemName() {
